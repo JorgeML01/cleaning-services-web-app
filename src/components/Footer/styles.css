@@ -1,0 +1,18 @@
+.main-footer-section {
+  color: white;
+}
+
+.all-footer {
+  padding: 50px 0;
+  text-align: center; /* optional */
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.all-footer {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(6, 178, 180);
+  font-weight: bold;
+}
