@@ -6,3 +6,62 @@ video {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
+
+.video-background {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#button-call-now {
+  background-color: #08b4b4;
+  border-color: #08b4b4;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Secular One", sans-serif;
+  padding: 14px 65px;
+  border-radius: 25px;
+  font-style: italic;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#button-call-now:hover {
+  background-color: #184474;
+}
+
+.video-background-content {
+  color: #184474;
+  font-size: 80px;
+  font-family: "Secular One", sans-serif;
+  padding: 14px 65px;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.div1 {
+  top: 10%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.div2 {
+  top: 23%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.div3 {
+  font-size: 26px;
+  top: 45%;
+}
+
+.div4 {
+  font-size: 26px;
+  top: 50%;
+}
