@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
+import CheckCircle from "../../../images/vectors/CheckCircle";
 import "./styles.css";
 
 function DashboardVideo() {
@@ -25,6 +26,26 @@ function DashboardVideo() {
       <div className="div-number">
         <span className="span-contact">Contact Us! </span>
         (512) 758-5749
+      </div>
+      <div className="checks">
+        <Container>
+          <Row>
+            <Col lg={4} xs={12} md={4} className="mb-4">
+              <CheckCircle style={{ marginBottom: "40px" }} />
+              <span className="check-text">Guaranteed Satisfaction</span>
+            </Col>
+            <Col lg={4} xs={12} md={4} className="mb-4">
+              <CheckCircle />
+              <span className="check-text">
+                Certified Professional Cleaning
+              </span>
+            </Col>
+            <Col lg={4} xs={12} md={4} className="mb-4">
+              <CheckCircle />
+              <span className="check-text">Eco-Friendly Delivery</span>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

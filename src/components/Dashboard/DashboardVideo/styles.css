@@ -92,6 +92,20 @@ video {
   color: #184474;
 }
 
+.checks {
+  font-family: poppins-semibold, poppins, sans-serif;
+  background-color: #184474;
+  font-size: 19px;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.check-text {
+  margin-left: 3%;
+}
+
 /********** Medium devices only **********/
 @media (min-width: 357px) and (max-width: 768px) {
   .div1,
@@ -123,6 +137,18 @@ video {
   #button-call-now {
     font-size: 13px;
   }
+
+  .div-number {
+    font-size: 40px;
+  }
+
+  .span-contact {
+    font-size: 20px;
+  }
+
+  .checks {
+    text-align: left;
+  }
 }
 
 /********** SUPER SMALL devices only **********/
@@ -151,5 +177,17 @@ video {
 
   #button-call-now {
     top: 60%;
+  }
+
+  .div-number {
+    font-size: 35px;
+  }
+
+  .span-contact {
+    font-size: 15px;
+  }
+
+  .checks {
+    text-align: left;
   }
 }
