@@ -1,0 +1,17 @@
+.col-card {
+  font-size: 35px;
+  font-family: caveat, cursive;
+  color: blue;
+  text-align: center;
+}
+
+.card-sevice {
+  border: none;
+  margin-top: 6%;
+}
+
+.card-image {
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+}
