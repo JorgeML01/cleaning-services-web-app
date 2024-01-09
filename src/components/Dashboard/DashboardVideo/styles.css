@@ -46,22 +46,110 @@ video {
 
 .div1 {
   top: 10%;
+  width: 100%;
+  text-align: center;
   font-weight: bold;
   font-style: italic;
 }
 
 .div2 {
   top: 23%;
+  width: 100%;
+  text-align: center;
   font-weight: bold;
   font-style: italic;
 }
 
 .div3 {
-  font-size: 26px;
   top: 45%;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  width: 100%;
 }
 
 .div4 {
+  top: 50%;
+  width: 100%;
+  text-align: center;
   font-size: 26px;
   top: 50%;
+  width: 100%;
+}
+
+.div-number {
+  font-size: 60px;
+  margin: 3%;
+  font-family: "Secular One", sans-serif;
+  text-align: center;
+  color: #184474;
+}
+
+.span-contact {
+  font-size: 40px;
+  margin-right: 1%;
+  font-family: caveat, cursive;
+  color: #184474;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 357px) and (max-width: 768px) {
+  .div1,
+  .div2 {
+    font-size: 35px;
+  }
+
+  .div3,
+  .div4 {
+    font-size: 15px;
+  }
+
+  .div1 {
+    top: 18%;
+  }
+
+  .div2 {
+    top: 28%;
+  }
+
+  .div3 {
+    top: 40%;
+  }
+
+  .div4 {
+    top: 47%;
+  }
+
+  #button-call-now {
+    font-size: 13px;
+  }
+}
+
+/********** SUPER SMALL devices only **********/
+@media (min-width: 280px) and (max-width: 357px) {
+  .div1,
+  .div2 {
+    font-size: 15px;
+  }
+
+  .div3,
+  .div4 {
+    font-size: 15px;
+  }
+
+  .div2 {
+    top: 18%;
+  }
+
+  .div3 {
+    top: 30%;
+  }
+
+  .div4 {
+    top: 43%;
+  }
+
+  #button-call-now {
+    top: 60%;
+  }
 }
