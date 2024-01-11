@@ -10,9 +10,9 @@ function NavigationBar() {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="./test-clean-service-logo.webp"
+            src="./logo-tidy-time-cleaning.png"
             width="264"
-            height="55"
+            height="120"
             alt="Logo"
           />
         </Navbar.Brand>

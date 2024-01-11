@@ -2,31 +2,30 @@ import "./styles.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 function ServiceCards() {
-  // Array of service data
   const services = [
     {
-      image: "./service1.webp",
+      image: "./carpet-cleaning.jpeg",
       text: "Carpet Cleaning",
     },
     {
-      image: "./service2.webp",
+      image: "./office-cleaning.jpeg",
       text: "Office Cleaning",
     },
     {
-      image: "./service3.webp",
-      text: "Window Cleaning",
+      image: "./home-residencial-cleaning.jpeg",
+      text: "Home Residencial Cleaning",
     },
     {
-      image: "./service4.webp",
-      text: "House Cleaning",
+      image: "./moving-in-out-cleaning.jpeg",
+      text: "Moving In/Out Cleaning",
     },
     {
-      image: "./service5.webp",
-      text: "Short-term Rental Cleaning",
+      image: "./rental-cleaning-(commercial-cleaning).jpeg",
+      text: "Rental Cleaning (commercial cleaning)",
     },
     {
-      image: "./service6.webp",
-      text: "Corporate Lease Cleaning",
+      image: "./post-construction-cleaning.jpeg",
+      text: "Post Construction Cleaning",
     },
   ];
 
