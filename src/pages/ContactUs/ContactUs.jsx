@@ -1,4 +1,4 @@
-import ContactForm from "../../components/ContactFormTab";
+import ContactForm from "../../components/ContactFormHome";
 
 function ContactUs() {
   return (
