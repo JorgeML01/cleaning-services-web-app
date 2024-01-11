@@ -37,7 +37,7 @@ input {
   border-bottom: 1px solid #144677 !important;
 }
 
-button {
+.button-send {
   font-size: 17px !important;
   border-radius: 500px !important;
   width: 100% !important;
@@ -47,6 +47,6 @@ button {
   border-radius: 500px !important;
 }
 
-button:hover {
+.button-send:hover {
   background-color: #3498db !important;
 }

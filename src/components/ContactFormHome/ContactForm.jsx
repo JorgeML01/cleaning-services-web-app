@@ -88,7 +88,7 @@ function ContactForm() {
         </div>
 
         <div className="form-group text-center">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary button-send">
             Send
           </button>
         </div>
