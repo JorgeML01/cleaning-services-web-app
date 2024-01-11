@@ -19,10 +19,10 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#about-us">About Us</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="about-us">About Us</Nav.Link>
+            <Nav.Link href="services">Services</Nav.Link>
+            <Nav.Link href="contact-us">Contact Us</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link id="button-quote" eventKey={2} href="#quote">
