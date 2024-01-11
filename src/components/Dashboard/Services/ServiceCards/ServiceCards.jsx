@@ -21,7 +21,7 @@ function ServiceCards() {
     },
     {
       image: "./rental-cleaning-(commercial-cleaning).jpeg",
-      text: "Rental Cleaning (commercial cleaning)",
+      text: "Rental Cleaning",
     },
     {
       image: "./post-construction-cleaning.jpeg",
