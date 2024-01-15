@@ -11,8 +11,8 @@ function NavigationBar() {
         <Navbar.Brand href="#home">
           <img
             src="./logo-tidy-time-cleaning.png"
-            width="264"
-            height="120"
+            width="220"
+            height="100"
             alt="Logo"
           />
         </Navbar.Brand>

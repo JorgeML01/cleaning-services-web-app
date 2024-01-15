@@ -1,0 +1,19 @@
+.about-us-title {
+  font-size: 45px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  font-family: "Secular One", sans-serif;
+  color: #184474;
+  text-align: center;
+}
+
+.about-us-content {
+  width: 70%;
+  font-size: 18px;
+  padding-bottom: 4%;
+  font-family: "Secular One", sans-serif;
+  color: #184474;
+  text-align: justify;
+  align-items: center;
+  padding-left: 30%;
+}

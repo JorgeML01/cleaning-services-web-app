@@ -2,6 +2,7 @@
   background-color: white;
   border-bottom: 1px solid #e6e6e6;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  height: auto;
 }
 
 .nav-link {
@@ -35,4 +36,11 @@
 
 #button-quote:hover {
   background-color: #08b4b4;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 357px) and (max-width: 768px) {
+  /* .all-navbar {
+    height: 150px;
+  } */
 }
