@@ -4,7 +4,6 @@ import "./styles.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-scroll";
 
 function NavigationBar() {
   return (
@@ -28,7 +27,7 @@ function NavigationBar() {
             <Nav.Link href="contact-us">Contact Us</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="contact-us" id="button-quote" eventKey={2}>
+            <Nav.Link href="contact-us" id="button-quote">
               Get a Quote
             </Nav.Link>
           </Nav>
