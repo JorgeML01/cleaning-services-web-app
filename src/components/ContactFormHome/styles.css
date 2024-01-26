@@ -1,7 +1,7 @@
 .contact-title {
   padding-bottom: 40px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 60px;
   font-family: secular one, sans-serif;
   font-size: 55px;
   background-color: #ffffff;
@@ -49,4 +49,14 @@ input {
 
 .button-send:hover {
   background-color: #3498db !important;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 357px) and (max-width: 768px) {
+  .contact-title {
+    font-size: 30px;
+    /* Make a borderline to identify the div limits */
+    /* border: 1px solid red; */
+    /* padding-top: 350px; */
+  }
 }
