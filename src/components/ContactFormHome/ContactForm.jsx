@@ -100,7 +100,7 @@ function ContactForm() {
             value={formData.serviceDesire}
             onChange={(e) => onInputChange("serviceDesire", e)}
           >
-            <option value="None">Service Desire</option>
+            <option value="" disabled hidden>Service Desire</option>
             <option value="Carpet Cleaning">Carpet Cleaning</option>
             <option value="Office Cleaning">Office Cleaning</option>
             <option value="Home Residencial Cleaning">Home Residencial Cleaning</option>
@@ -109,6 +109,8 @@ function ContactForm() {
             <option value="Post Construction Cleaning">Post Construction Cleaning</option>
           </select>
         </div>
+
+
 
         <div className="form-group date-form">
           <DatePicker
