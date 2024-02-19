@@ -21,19 +21,21 @@
 
 .drop-down-menu-service-desire {
   font-family: secular one, sans-serif;
-  color: #3498db;
+  color: #144677;
   font-size: 15px;
   padding-left: 10px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #3498db;
+  border-bottom: 1px solid #144677;
 }
 
-.drop-down-menu-service-desire:focus {
-  color: #3498db;
+.drop-down-menu-service-desire:focus::after {
+  color: #144677;
   font-family: secular one, sans-serif;
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #144677;
 }
+
+
 
 .success-message {
   color: #144677;
@@ -44,19 +46,20 @@
 
 }
 
+
 input::placeholder {
   color: #144677 !important;
   font-family: secular one, sans-serif !important;
 }
 
 input:focus {
-  color: #3498db !important;
+  color: #144677 !important;
   font-family: secular one, sans-serif !important;
   border-bottom: 2px solid #144677 !important;
 }
 
 input {
-  color: #3498db !important;
+  color: #144677 !important;
   font-family: secular one, sans-serif !important;
   border: none !important;
   border-bottom: 1px solid #144677 !important;
