@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
+import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "./styles.css";
@@ -23,9 +24,27 @@ function ContactForm() {
     setFormData({ ...formData, selectedDate: date });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Include the fetch API code here
+    console.log("Test button clicked");
+
+    const url = "http://localhost:3001/enviar-correo";
+
+    try {
+      const response = await axios.post(url, {
+        name: formData.name,
+        email: formData.email,
+        serviceDesire: formData.serviceDesire,
+        phone: formData.phone,
+        selectedDate: formData.selectedDate,
+      });
+
+      // Aquí puedes manejar la respuesta de la petición si es necesario
+      console.log("Response:", response.data);
+    } catch (error) {
+      // Manejar errores de la petición
+      console.error("Error sending request:", error);
+    }
   };
 
   return (
@@ -88,7 +107,7 @@ function ContactForm() {
         </div>
 
         <div className="form-group text-center">
-          <button type="submit" className="btn btn-primary button-send">
+          <button onClick={handleSubmit} type="submit" className="btn btn-primary button-send">
             Send
           </button>
         </div>
