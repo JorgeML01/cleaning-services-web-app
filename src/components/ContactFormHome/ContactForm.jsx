@@ -6,7 +6,11 @@ import "react-datepicker/dist/react-datepicker.css";
 import "./styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 function ContactForm() {
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -39,7 +43,9 @@ function ContactForm() {
         selectedDate: formData.selectedDate,
       });
 
-      // Aquí puedes manejar la respuesta de la petición si es necesario
+      // Actualizar el estado para mostrar el mensaje de éxito
+      setIsSubmitted(true);
+
       console.log("Response:", response.data);
     } catch (error) {
       // Manejar errores de la petición
@@ -88,13 +94,20 @@ function ContactForm() {
         </div>
 
         <div className="form-group">
-          <input
-            type="text"
-            className="form-control"
+          <select
+            id="serviceDesire"
+            className="form-control drop-down-menu-service-desire"
             value={formData.serviceDesire}
-            placeholder="Service Desire"
             onChange={(e) => onInputChange("serviceDesire", e)}
-          />
+          >
+            <option value="None">Service Desire</option>
+            <option value="Carpet Cleaning">Carpet Cleaning</option>
+            <option value="Office Cleaning">Office Cleaning</option>
+            <option value="Home Residencial Cleaning">Home Residencial Cleaning</option>
+            <option value="Moving In/Out Cleaning">Moving In/Out Cleaning</option>
+            <option value="Rental Cleaning">Rental Cleaning</option>
+            <option value="Post Construction Cleaning">Post Construction Cleaning</option>
+          </select>
         </div>
 
         <div className="form-group date-form">
@@ -105,6 +118,12 @@ function ContactForm() {
             placeholderText="Date"
           />
         </div>
+        
+        {isSubmitted && (
+          <div className="form-group success-message">
+            Message sent successfully!
+          </div>
+        )}
 
         <div className="form-group text-center">
           <button onClick={handleSubmit} type="submit" className="btn btn-primary button-send">

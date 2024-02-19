@@ -19,6 +19,31 @@
   padding-bottom: 20px;
 }
 
+.drop-down-menu-service-desire {
+  font-family: secular one, sans-serif;
+  color: #3498db;
+  font-size: 15px;
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #3498db;
+}
+
+.drop-down-menu-service-desire:focus {
+  color: #3498db;
+  font-family: secular one, sans-serif;
+  border-bottom: 2px solid #3498db;
+}
+
+.success-message {
+  color: #144677;
+  font-family: secular one, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
 input::placeholder {
   color: #144677 !important;
   font-family: secular one, sans-serif !important;

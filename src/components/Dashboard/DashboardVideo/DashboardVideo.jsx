@@ -21,7 +21,6 @@ function DashboardVideo() {
         <div className="video-background-content div4">
           Faster than You Can Blink
         </div>
-        <div id="button-call-now">Call Now</div>
       </div>
       <div className="div-number">
         <span className="span-contact">Contact Us! </span>
